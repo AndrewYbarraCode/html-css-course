@@ -1,1 +1,86 @@
-test again
+<style>
+  p {
+    text-align: center;
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .new {
+    color: orangered;
+    font-weight: bold;
+    margin-top: 55px;
+    font-size: 14px;
+  }
+
+  .macbook {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 45px;
+  }
+
+  .price {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .buy {
+    margin-top: 25px;
+    background-color: rgb(14, 139, 223);
+    border-radius: 75px;
+    color: white;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .buy-button {
+    margin-top: 20px;
+  }
+
+</style>
+
+<p class="new">
+  New
+</p>
+
+<p class="macbook">
+  MacBook Pro
+</p>
+
+<p class="title">
+  Supercharged for pros.
+</p>
+
+<p class="price">
+  From $1999
+</p>
+
+
+<!-- So if I did not include the <span> in my (buy-button)
+  code, then when changing the background color the whole
+line would be highlighted. But with pointing out a specific
+word as in "buy" with span, when changing the background color
+Only the characters in the <span> will change color. Making 
+  the shape of a <button> that I can customize -->
+
+<p class="buy-button">
+ <span class="buy">
+  Buy
+</span>
+</p>
+
+
+<!-- Secondly when trying to change the margin-top
+of my <span class="buy"> css, it would not let me
+  I instead had to make another style set in my css 
+to customize the <p class="buy-button"> in order for 
+  the margin-top to take effect. -->
