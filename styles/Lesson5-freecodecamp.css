@@ -1,0 +1,26 @@
+p {
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.email {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.email-1 {
+  color: grey;
+}
+
+.body {
+  width: 600px;
+  margin-bottom: 22px;
+  line-height: 25px;
+}
+
+.username {
+  color: rgb(0, 150, 255);
+  cursor: pointer;
+}

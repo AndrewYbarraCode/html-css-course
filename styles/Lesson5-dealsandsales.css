@@ -1,0 +1,17 @@
+p {
+  font-family: arial;
+}
+
+.First-line {
+  font-size: 30px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+.Second-line {
+  Color: red;
+  margin-top: 0px;
+  font-style: italic;
+  font-size: 20px;
+
+}

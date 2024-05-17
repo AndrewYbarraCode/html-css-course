@@ -1,0 +1,45 @@
+span {
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.line-1 {
+  margin-top: 20px;
+}
+
+.line-2 {
+  margin-top: 5px;
+}
+
+.line-3 {
+  margin-top: 8px;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.usd {
+  color: grey;
+  font-size: 19px;
+}
+
+.today {
+  color: green;
+  font-size: 18px;
+}
+
+.after-hours {
+  color: grey;
+  font-size: 18px;
+}
+
+.after-hours-numbers {
+  color: red;
+  font-size: 18px;
+}
